@@ -23,3 +23,16 @@ ul {
   display: inline-block;
   padding: 10px;
 }
+.leftPart {
+  float: left;
+}
+div > p {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+}
+img {
+  width: 75%;
+  padding: 34px;
+}
