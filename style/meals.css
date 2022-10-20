@@ -1,0 +1,60 @@
+body {
+  padding: 20px;
+}
+input {
+  width: 100%;
+}
+
+.loginForm {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+}
+
+table {
+  background-color: rgba(0, 0, 0, 0.117);
+  width: 100%;
+  border: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 45px;
+}
+
+input {
+  padding: 5px;
+}
+
+#submit {
+  width: 50%;
+  background-color: antiquewhite;
+  font-size: large;
+  border-radius: 10px;
+}
+
+hr {
+  width: 75%;
+}
+
+.fb {
+  width: 50%;
+  background-color: rgb(20, 36, 120);
+  font-size: large;
+  border-radius: 10px;
+  color: white;
+}
+
+.google {
+  width: 50%;
+  background-color: rgba(211, 71, 16, 0.877);
+  font-size: large;
+  border-radius: 10px;
+  color: white;
+}
+
+.social {
+  padding: 10px;
+}
