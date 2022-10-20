@@ -17,6 +17,7 @@ table {
 
 h1 {
   text-align: center;
+  margin: 20px;
   border: 1px solid black;
   border-radius: 45px;
 }
