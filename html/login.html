@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="../style/login.css">
+
+    <style>
+        input {
+            width: 100%;
+        }
+
+        .loginForm {
+            width: 75%;
+            text-align: center;
+            margin: auto;
+        }
+
+        table {
+            background-color: rgba(0, 0, 0, 0.117);
+            width: 100%;
+            border: 0;
+            padding: 20px;
+
+        }
+
+        h1 {
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 45px;
+        }
+
+        input {
+            padding: 5px;
+        }
+
+        #submit {
+            width: 50%;
+            background-color: antiquewhite;
+            font-size: large;
+            border-radius: 10px;
+        }
+
+        hr {
+            width: 75%;
+        }
+
+        .fb {
+            width: 50%;
+            background-color: rgb(20, 36, 120);
+            font-size: large;
+            border-radius: 10px;
+            color: white;
+        }
+
+        .google {
+            width: 50%;
+            background-color: rgba(211, 71, 16, 0.877);
+            font-size: large;
+            border-radius: 10px;
+            color: white;
+        }
+
+        .social {
+            padding: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Start Global Navigation bar -->
+    <div id="NavigationBar">
+        <ul>
+            <li><a href='../index.html'>Home page</a></li>
+            <li><a href='contact.html'>contact Us</a></li>
+            <li><a href='about.html'>About</a></li>
+            <li><a href='meals.html'>Our Meals</a></li>
+        </ul>
+        <ul id="Rightnavigation">
+            <li><a href='login.html'>Login</a></li>
+            <li><a href='register.html'>Register</a></li>
+        </ul>
+    </div>
+    <!-- End of the Global Navigation bar  -->
+
+    <h1>Welcome Back</h1>
+
+    <div class="loginForm">
+        <form action="" method="get">
+            <table cellpadding='0' cellspacing='1'>
+                <tr>
+                    <td>Phone Or Email : </td>
+                    <td><input type='text' name='PhoneMail'></td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type='password' name='password'></td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type='submit' name='login' value="login" id="submit">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <hr>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="social">
+                        <input type='submit' name='fb' value="Login Using Facebook" class="fb">
+                    </td>
+                    <td class="social">
+                        <input type='submit' name='google' value="Login Using Google" class="google">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
