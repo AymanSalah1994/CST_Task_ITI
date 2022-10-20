@@ -28,9 +28,16 @@ ul {
 .contactUsSection {
 }
 img {
-  margin: 30px;
+  width: 100%;
+}
+.map {
   width: 50%;
   float: left;
 }
-.map {
+
+.howToFindUs {
+  width: 25%;
+  padding: 30px;
+  margin: 40px;
+  float: right;
 }
