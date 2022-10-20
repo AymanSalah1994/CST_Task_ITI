@@ -1,3 +1,4 @@
+/* Main Style Global in All Pages */
 #NavigationBar {
   background-color: rgba(0, 0, 0, 0.243);
   color: white;
@@ -23,21 +24,13 @@ ul {
   display: inline-block;
   padding: 10px;
 }
-.leftPart {
-  float: left;
-}
-div > p {
-  font-size: 20px;
-  font-weight: bold;
-  padding: 10px;
-  margin: 10px;
+/* End Of the Main Global Style */
+.contactUsSection {
 }
 img {
-  width: 75%;
-  padding: 34px;
-  clear: both;
+  margin: 30px;
+  width: 50%;
+  float: left;
 }
-#firstDivider {
-  width: 75%;
-  border: 1px solid black;
+.map {
 }
