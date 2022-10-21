@@ -1,37 +1,3 @@
-body {
-  background-color: #bfeaf4;
-  padding: 0;
-  margin: 0;
-}
-#NavigationBar {
-  background-color: #ff1e0030;
-  color: white;
-  width: 100%;
-}
-#Rightnavigation {
-  float: right;
-}
-a {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.866);
-  font-size: large;
-  font-weight: bold;
-}
-ul li {
-  display: inline-block;
-  margin: 10px;
-  padding: 10px 15px;
-  border: 1px solid #f8c4b4;
-  width: 90px;
-  border-radius: 20px;
-  text-align: center;
-  background-color: #137340;
-}
-ul {
-  display: inline-block;
-  padding: 8px;
-  height: 50px;
-}
 .intro {
   padding: 10px;
 }
@@ -52,4 +18,24 @@ img {
 #firstDivider {
   width: 75%;
   border: 1px solid black;
+}
+h1 {
+  text-align: center;
+}
+.features {
+  text-align: center;
+  width: 50%;
+  height: 50%;
+}
+#featureTable table {
+}
+.Featureh3 {
+  text-align: center;
+}
+#callUs {
+  text-decoration: none;
+  color: rgba(240, 0, 0, 0.866);
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
 }
