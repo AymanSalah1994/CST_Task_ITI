@@ -1,0 +1,25 @@
+img {
+  width: 50%;
+}
+h1,
+p,
+a {
+  text-align: center;
+}
+p {
+  color: red;
+  font-weight: bold;
+}
+.image {
+  text-align: center;
+}
+#offerLink {
+  color: brown;
+}
+#offerTable {
+  text-align: center;
+}
+#offerPrice {
+  color: red;
+  font-style: italic;
+}
